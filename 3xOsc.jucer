@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ReKjog" name="3xOsc-for-lmms" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginWantsMidiIn"
+              companyName="ChapaFactory" companyWebsite="https://github.com/ChapaChapa0"
+              companyEmail="chable.paul@gmail.com" userNotes="Hope you enjoy &lt;3">
+  <MAINGROUP id="MqAJWw" name="3xOsc-for-lmms">
+    <GROUP id="{EB8AF7D5-F02F-0F1A-80E8-1C54B6B356AE}" name="Source">
+      <GROUP id="{E1FD8A7C-5875-B676-88EA-BB0299EB6A06}" name="ImagesData">
+        <FILE id="ev5Jpg" name="WT_noise_off.png" compile="0" resource="1"
+              file="Images/WT_noise_off.png"/>
+        <FILE id="cUE5AS" name="WT_noise_on.png" compile="0" resource="1" file="Images/WT_noise_on.png"/>
+        <FILE id="HvYlqX" name="WT_roundsaw_off.png" compile="0" resource="1"
+              file="Images/WT_roundsaw_off.png"/>
+        <FILE id="DCoGqB" name="WT_roundsaw_on.png" compile="0" resource="1"
+              file="Images/WT_roundsaw_on.png"/>
+        <FILE id="rWLlej" name="WT_sawtooth_off.png" compile="0" resource="1"
+              file="Images/WT_sawtooth_off.png"/>
+        <FILE id="BnRdoN" name="WT_sawtooth_on.png" compile="0" resource="1"
+              file="Images/WT_sawtooth_on.png"/>
+        <FILE id="kVQauA" name="WT_sinus_off.png" compile="0" resource="1"
+              file="Images/WT_sinus_off.png"/>
+        <FILE id="VVHKxb" name="WT_sinus_on.png" compile="0" resource="1" file="Images/WT_sinus_on.png"/>
+        <FILE id="hqk3WU" name="WT_square_off.png" compile="0" resource="1"
+              file="Images/WT_square_off.png"/>
+        <FILE id="MUanFN" name="WT_square_on.png" compile="0" resource="1"
+              file="Images/WT_square_on.png"/>
+        <FILE id="BDpavI" name="WT_triangle_off.png" compile="0" resource="1"
+              file="Images/WT_triangle_off.png"/>
+        <FILE id="b3b7sT" name="WT_triangle_on.png" compile="0" resource="1"
+              file="Images/WT_triangle_on.png"/>
+      </GROUP>
+      <GROUP id="{0D09E33F-E988-3E47-ABA6-E28A4B418A0E}" name="GUI">
+        <FILE id="WMrDPq" name="PanSlider.cpp" compile="1" resource="0" file="Source/PanSlider.cpp"/>
+        <FILE id="enchW0" name="PanSlider.h" compile="0" resource="0" file="Source/PanSlider.h"/>
+        <FILE id="PAOU3o" name="PluginLook.cpp" compile="1" resource="0" file="Source/PluginLook.cpp"/>
+        <FILE id="CP5NLm" name="PluginLook.h" compile="0" resource="0" file="Source/PluginLook.h"/>
+        <FILE id="yP24eX" name="StereoSlider.cpp" compile="1" resource="0"
+              file="Source/StereoSlider.cpp"/>
+        <FILE id="iVfqX9" name="StereoSlider.h" compile="0" resource="0" file="Source/StereoSlider.h"/>
+        <FILE id="SQGZmR" name="WavetableButton.cpp" compile="1" resource="0"
+              file="Source/WavetableButton.cpp"/>
+        <FILE id="BTtkx6" name="WavetableButton.h" compile="0" resource="0"
+              file="Source/WavetableButton.h"/>
+      </GROUP>
+      <FILE id="ludbgM" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="shfXib" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ZFDoQz" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="YnmE2y" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="wxAHDK" name="WavetableSound.cpp" compile="1" resource="0"
+            file="Source/WavetableSound.cpp"/>
+      <FILE id="ZfN0GN" name="WavetableSound.h" compile="0" resource="0"
+            file="Source/WavetableSound.h"/>
+      <FILE id="rTMaGe" name="WavetableVoice.cpp" compile="1" resource="0"
+            file="Source/WavetableVoice.cpp"/>
+      <FILE id="iDzafm" name="WavetableVoice.h" compile="0" resource="0"
+            file="Source/WavetableVoice.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Release" targetName="3xOsc"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../../../Program Files/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
