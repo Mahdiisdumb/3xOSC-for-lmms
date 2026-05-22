@@ -50,10 +50,10 @@
  #define JucePlugin_Manufacturer           "ChapaFactory"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
- #define JucePlugin_ManufacturerWebsite    "https://github.com/ChapaChapa0"
+ #define JucePlugin_ManufacturerWebsite    "https://github.com/Mahdiisdumb"
 #endif
 #ifndef  JucePlugin_ManufacturerEmail
- #define JucePlugin_ManufacturerEmail      "chable.paul@gmail.com"
+ #define JucePlugin_ManufacturerEmail      ""
 #endif
 #ifndef  JucePlugin_ManufacturerCode
  #define JucePlugin_ManufacturerCode       0x4d616e75
