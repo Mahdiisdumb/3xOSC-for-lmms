@@ -47,7 +47,7 @@
  #define JucePlugin_Desc                   "3xOsc-for-lmms"
 #endif
 #ifndef  JucePlugin_Manufacturer
- #define JucePlugin_Manufacturer           "ChapaFactory"
+ #define JucePlugin_Manufacturer           "Mahdi Studios (Tools)"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
  #define JucePlugin_ManufacturerWebsite    "https://github.com/Mahdiisdumb"
@@ -110,10 +110,10 @@
  #define JucePlugin_AUManufacturerCode     JucePlugin_ManufacturerCode
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
- #define JucePlugin_CFBundleIdentifier     com.ChapaFactory._3xOscforlmms
+ #define JucePlugin_CFBundleIdentifier     com.MahdiStudiosTools._3xOscforlmms
 #endif
 #ifndef  JucePlugin_AAXIdentifier
- #define JucePlugin_AAXIdentifier          com.ChapaFactory._3xOscforlmms
+ #define JucePlugin_AAXIdentifier          com.MahdiStudiosTools._3xOscforlmms
 #endif
 #ifndef  JucePlugin_AAXManufacturerCode
  #define JucePlugin_AAXManufacturerCode    JucePlugin_ManufacturerCode
@@ -137,7 +137,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "ChapaFactory: 3xOsc-for-lmms"
+ #define JucePlugin_IAAName                "Mahdi Studios (Tools): 3xOsc-for-lmms"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16
@@ -152,10 +152,10 @@
  #define JucePlugin_ARATransformationFlags  0
 #endif
 #ifndef  JucePlugin_ARAFactoryID
- #define JucePlugin_ARAFactoryID           "com.ChapaFactory._3xOscforlmms.factory"
+ #define JucePlugin_ARAFactoryID           "com.MahdiStudiosTools._3xOscforlmms.factory"
 #endif
 #ifndef  JucePlugin_ARADocumentArchiveID
- #define JucePlugin_ARADocumentArchiveID   "com.ChapaFactory._3xOscforlmms.aradocumentarchive.1.0.0"
+ #define JucePlugin_ARADocumentArchiveID   "com.MahdiStudiosTools._3xOscforlmms.aradocumentarchive.1.0.0"
 #endif
 #ifndef  JucePlugin_ARACompatibleArchiveIDs
  #define JucePlugin_ARACompatibleArchiveIDs  ""

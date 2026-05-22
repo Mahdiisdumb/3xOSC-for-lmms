@@ -3,7 +3,7 @@
 <JUCERPROJECT id="ReKjog" name="3xOsc-for-lmms" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
               pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginWantsMidiIn"
-              companyName="ChapaFactory" companyWebsite="https://github.com/Mahdiisdumb"
+              companyName="Mahdi Studios (Tools)" companyWebsite="https://github.com/Mahdiisdumb"
               userNotes="Hope you enjoy &lt;3" pluginFormats="buildVST3">
   <MAINGROUP id="MqAJWw" name="3xOsc-for-lmms">
     <GROUP id="{EB8AF7D5-F02F-0F1A-80E8-1C54B6B356AE}" name="Source">

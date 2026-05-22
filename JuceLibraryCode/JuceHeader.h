@@ -46,7 +46,7 @@
 namespace ProjectInfo
 {
     const char* const  projectName    = "3xOsc-for-lmms";
-    const char* const  companyName    = "ChapaFactory";
+    const char* const  companyName    = "Mahdi Studios (Tools)";
     const char* const  versionString  = "1.0.0";
     const int          versionNumber  = 0x10000;
 }
